@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trust Gravity – a troll platformer</title>
+  <meta name="description" content="Trust Gravity is a pixel-art troll platformer where gravity, doors and even the floor lie to you. 25 levels of pure betrayal.">
+  <meta name="theme-color" content="#101326">
+  <meta property="og:title" content="Trust Gravity">
+  <meta property="og:description" content="A pixel-art troll platformer where gravity, doors and even the floor lie to you.">
+  <meta property="og:image" content="img/icon.png">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="sky" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="index.html">
+        <img src="img/icon.png" alt="" width="34" height="34">
+        <span>Trust <b>Gravity</b></span>
+      </a>
+      <input type="checkbox" id="nav-check" class="nav-check" aria-label="Toggle menu">
+      <label for="nav-check" class="nav-toggle" aria-hidden="true">☰</label>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Trolls</a></li>
+        <li><a href="#how">How to play</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a class="pop-btn small" href="https://play.google.com/store/apps/details?id=com.game.dont_trust_gravity" target="_blank" rel="noopener">Get the app</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <!-- floating spikes and doors -->
+      <svg class="float a" viewBox="0 0 40 26" aria-hidden="true"><path d="M0 26 10 0 20 26 30 0 40 26Z" fill="#ff4f87"/><path d="M10 0 13 26 20 26Z" fill="#ffa2be"/></svg>
+      <svg class="float b" viewBox="0 0 30 40" aria-hidden="true"><rect width="30" height="40" fill="#3a3e58"/><rect x="4" y="4" width="22" height="36" fill="#ffe17a"/><rect x="19" y="20" width="3" height="3" fill="#0d0d0d"/></svg>
+      <svg class="float c" viewBox="0 0 40 26" aria-hidden="true"><path d="M0 26 10 0 20 26 30 0 40 26Z" fill="#b7f34a"/></svg>
+      <svg class="float d" viewBox="0 0 40 26" aria-hidden="true"><path d="M0 26 10 0 20 26 30 0 40 26Z" fill="#5debff"/></svg>
+
+      <div class="container">
+        <img class="app-icon rise" src="img/icon.png" alt="Trust Gravity app icon" width="104" height="104">
+        <span class="tag rise d1">Pixel-art troll platformer</span>
+        <h1 class="title rise d2" aria-label="Trust Gravity">
+          <small aria-hidden="true">TRUST</small>
+          <span aria-hidden="true">G</span><span aria-hidden="true">R</span><span class="flip" aria-hidden="true">A</span><span aria-hidden="true">V</span><span aria-hidden="true">I</span><span aria-hidden="true">T</span><span aria-hidden="true">Y</span>
+        </h1>
+        <p class="lede rise d3">
+          Meet <strong>Sprout</strong>, a tiny gumdrop hero in a world where <strong>gravity flips</strong>,
+          <strong>doors run away</strong> and <strong>the floor lies</strong>. Every level looks easy.
+          None of them are.
+        </p>
+        <div class="cta-row rise d4">
+          <a class="pop-btn shimmer" href="https://play.google.com/store/apps/details?id=com.game.dont_trust_gravity" target="_blank" rel="noopener">▶ Get it on Google Play</a>
+          <a class="pop-btn white" href="play/index.html">Play in browser</a>
+        </div>
+        <div class="stats rise d4">
+          <div><b>25</b>hand-made levels</div>
+          <div><b>0</b>ads</div>
+          <div><b>∞</b>deaths</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LEVEL TICKER ============ -->
+    <div class="ticker" aria-label="Some of the levels">
+      <ul>
+        <li>The First Lie</li><li>Trust Issues</li><li>Runaway Door</li><li>Floor Is Lava</li><li>Bridge Out</li>
+        <li>Thin Air</li><li>Mirror Hands</li><li>Spike Patrol</li><li>Save Point?</li><li>The Flip Clock</li>
+        <li>Crusher Alley</li><li>Wrong Door</li><li>Paper Spikes</li><li>Moon Walk</li><li>The Last Lie</li>
+        <!-- duplicated for a seamless loop -->
+        <li aria-hidden="true">The First Lie</li><li aria-hidden="true">Trust Issues</li><li aria-hidden="true">Runaway Door</li><li aria-hidden="true">Floor Is Lava</li><li aria-hidden="true">Bridge Out</li>
+        <li aria-hidden="true">Thin Air</li><li aria-hidden="true">Mirror Hands</li><li aria-hidden="true">Spike Patrol</li><li aria-hidden="true">Save Point?</li><li aria-hidden="true">The Flip Clock</li>
+        <li aria-hidden="true">Crusher Alley</li><li aria-hidden="true">Wrong Door</li><li aria-hidden="true">Paper Spikes</li><li aria-hidden="true">Moon Walk</li><li aria-hidden="true">The Last Lie</li>
+      </ul>
+    </div>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="tag">About the game</span>
+          <h2>A platformer that <em>lies to you</em></h2>
+          <p>
+            Trust Gravity looks like a cute, simple platformer: run, jump, reach the door.
+            Then the floor collapses, the door runs off and gravity turns upside down.
+            Each of the 25 levels hides a new trick, and you only find it by falling for it.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <div class="icon bg-lime" aria-hidden="true">🌱</div>
+            <h3>Meet Sprout</h3>
+            <p>A chubby apricot gumdrop with a two-leaf sprout and tiny legs. Sprout will die a lot. Sprout believes in you anyway.</p>
+          </article>
+          <article class="card">
+            <div class="icon bg-yellow" aria-hidden="true">🧠</div>
+            <h3>Learn, die, laugh</h3>
+            <p>Every trap is fair once you know it's there. Instant respawns and short levels keep you going for "just one more try".</p>
+          </article>
+          <article class="card">
+            <div class="icon bg-pink" aria-hidden="true">💬</div>
+            <h3>It talks back</h3>
+            <p>Each death comes with a fresh taunt, like "Skill issue." or "Gravity: 1. You: 0." The game is laughing with you. Mostly at you.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES / TROLLS ============ -->
+    <section id="features" class="band">
+      <div class="container">
+        <div class="section-head">
+          <span class="tag">What's waiting for you</span>
+          <h2>Every trick in the <em>troll book</em></h2>
+          <p>A few of the things that will betray you on the way to the exit.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <div class="icon bg-cyan" aria-hidden="true">🙃</div>
+            <h3>Gravity flips</h3>
+            <p>Step into a zone, some of them invisible, and you fall up. Some levels flip gravity on a timer. Some flip it every time you jump.</p>
+          </article>
+          <article class="card">
+            <div class="icon bg-yellow" aria-hidden="true">🚪</div>
+            <h3>Runaway doors</h3>
+            <p>Exits that run away, ride on platforms, parachute down, hide while you move, or swap places with a fake that kills you.</p>
+          </article>
+          <article class="card">
+            <div class="icon bg-pink" aria-hidden="true">🔺</div>
+            <h3>Sneaky spikes</h3>
+            <p>Spikes that pop up, patrol, rain from the sky, or turn out to be made of paper. Watch the wind to tell which ones are real.</p>
+          </article>
+          <article class="card">
+            <div class="icon bg-white" aria-hidden="true">🧱</div>
+            <h3>Lying floors</h3>
+            <p>Bridges that crumble, floors that vanish under you, and a few random bridges that collapse each time you try.</p>
+          </article>
+          <article class="card">
+            <div class="icon bg-lime" aria-hidden="true">⇄</div>
+            <h3>Mirror controls</h3>
+            <p>Left becomes right, mid-jump, over a spike pit. Your thumbs will need a moment. You won't get one.</p>
+          </article>
+          <article class="card">
+            <div class="icon bg-blue" aria-hidden="true">🔨</div>
+            <h3>Crushers &amp; fake saves</h3>
+            <p>Pistons that slam in rhythm, a crusher that hunts you, and a checkpoint that says "saved" but saves nothing.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOW TO PLAY ============ -->
+    <section id="how">
+      <div class="container">
+        <div class="section-head">
+          <span class="tag">How to play</span>
+          <h2>Simple controls. <em>Unfair</em> world.</h2>
+        </div>
+        <div class="grid steps">
+          <article class="card">
+            <h3>Move</h3>
+            <p>Tap the left and right buttons on your phone. On a keyboard use <kbd>←</kbd> <kbd>→</kbd> or <kbd>A</kbd> <kbd>D</kbd>.</p>
+          </article>
+          <article class="card">
+            <h3>Jump</h3>
+            <p>Tap the jump button, or press <kbd>Space</kbd> / <kbd>↑</kbd>. When gravity is flipped, you jump "down".</p>
+          </article>
+          <article class="card">
+            <h3>Reach the door</h3>
+            <p>Get Sprout to the exit door to clear the level. Make sure it's the real door first.</p>
+          </article>
+          <article class="card">
+            <h3>Trust nothing</h3>
+            <p>Every death teaches you the trick. Your progress is saved on your device, so you can always come back.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section id="faq" class="band">
+      <div class="container">
+        <div class="section-head">
+          <span class="tag">FAQ</span>
+          <h2>Questions, <em>answered</em></h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Is the game free?</summary>
+            <p>Yes.  Trust Gravity is free to download. There are no ads and no in-app purchases.</p>
+          </details>
+          <details>
+            <summary>Which devices can I play on?</summary>
+            <p>Android phones and tablets through Google Play. You can also try it in a desktop or mobile browser with the "Play in browser" button.</p>
+          </details>
+          <details>
+            <summary>Do I need an account or internet?</summary>
+            <p>No account is needed. The game plays offline. Your level progress, total deaths and sound setting are saved only on your device.</p>
+          </details>
+          <details>
+            <summary>Is it really that hard?</summary>
+            <p>It's a troll game, so it's designed to surprise you. Every level has been tested to be beatable, and once you know a trick it becomes fair.</p>
+          </details>
+          <details>
+            <summary>What data does the game collect?</summary>
+            <p>The Android app uses Microsoft Clarity to understand how people play (for example, which levels are too hard). It doesn't ask for your name, email or location. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section>
+      <div class="container">
+        <div class="cta-box">
+          <h2>Think you can beat all 25 levels?</h2>
+          <p>Gravity says no. Prove it wrong.</p>
+          <a class="pop-btn" href="https://play.google.com/store/apps/details?id=com.game.dont_trust_gravity" target="_blank" rel="noopener">▶ Download on Google Play</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Trust Gravity. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="play/index.html">Play in browser</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
