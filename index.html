@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Trust Gravity – a troll platformer</title>
-  <meta name="description" content="Trust Gravity is a pixel-art troll platformer where gravity, doors and even the floor lie to you. 25 levels of pure betrayal.">
+  <title>Trust Gravity – a troll platformer across the planets</title>
+  <meta name="description" content="Trust Gravity is a pixel-art troll platformer where gravity, doors and even the floor lie to you. 110 levels across the Moon, Mars, Jupiter and Saturn.">
   <meta name="theme-color" content="#101326">
   <meta property="og:title" content="Trust Gravity">
-  <meta property="og:description" content="A pixel-art troll platformer where gravity, doors and even the floor lie to you.">
+  <meta property="og:description" content="110 levels of pure betrayal across the Moon, Mars, Jupiter and Saturn.">
   <meta property="og:image" content="img/icon.png">
   <meta property="og:type" content="website">
   <link rel="icon" type="image/png" href="img/icon.png">
@@ -27,6 +27,7 @@
       <label for="nav-check" class="nav-toggle" aria-hidden="true">☰</label>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#worlds">Planets</a></li>
         <li><a href="#features">Trolls</a></li>
         <li><a href="#how">How to play</a></li>
         <li><a href="#faq">FAQ</a></li>
@@ -39,11 +40,11 @@
   <main id="main">
     <!-- ============ HERO ============ -->
     <section class="hero">
-      <!-- floating spikes and doors -->
+      <!-- floating spikes, a door, and planets -->
       <svg class="float a" viewBox="0 0 40 26" aria-hidden="true"><path d="M0 26 10 0 20 26 30 0 40 26Z" fill="#ff4f87"/><path d="M10 0 13 26 20 26Z" fill="#ffa2be"/></svg>
       <svg class="float b" viewBox="0 0 30 40" aria-hidden="true"><rect width="30" height="40" fill="#3a3e58"/><rect x="4" y="4" width="22" height="36" fill="#ffe17a"/><rect x="19" y="20" width="3" height="3" fill="#0d0d0d"/></svg>
-      <svg class="float c" viewBox="0 0 40 26" aria-hidden="true"><path d="M0 26 10 0 20 26 30 0 40 26Z" fill="#b7f34a"/></svg>
-      <svg class="float d" viewBox="0 0 40 26" aria-hidden="true"><path d="M0 26 10 0 20 26 30 0 40 26Z" fill="#5debff"/></svg>
+      <svg class="float c" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="14" fill="#e3c48e"/><ellipse cx="20" cy="21" rx="20" ry="5" fill="none" stroke="#c9b48a" stroke-width="3"/></svg>
+      <svg class="float d" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="16" fill="#b4532f"/><circle cx="14" cy="15" r="3" fill="#7a3324"/><circle cx="24" cy="25" r="4" fill="#7a3324"/></svg>
 
       <div class="container">
         <img class="app-icon rise" src="img/icon.png" alt="Trust Gravity app icon" width="104" height="104">
@@ -53,16 +54,17 @@
           <span aria-hidden="true">G</span><span aria-hidden="true">R</span><span class="flip" aria-hidden="true">A</span><span aria-hidden="true">V</span><span aria-hidden="true">I</span><span aria-hidden="true">T</span><span aria-hidden="true">Y</span>
         </h1>
         <p class="lede rise d3">
-          Meet <strong>Sprout</strong>, a tiny gumdrop hero in a world where <strong>gravity flips</strong>,
-          <strong>doors run away</strong> and <strong>the floor lies</strong>. Every level looks easy.
-          None of them are.
+          Meet <strong>Sprout</strong>, a tiny gumdrop hero on a trip across the solar system,
+          where <strong>gravity changes on every planet</strong>, <strong>doors run away</strong>
+          and <strong>the floor lies</strong>. Every level looks easy. None of them are.
         </p>
         <div class="cta-row rise d4">
           <a class="pop-btn shimmer" href="https://play.google.com/store/apps/details?id=com.game.dont_trust_gravity" target="_blank" rel="noopener">▶ Get it on Google Play</a>
-          <a class="pop-btn white" href="play/index.html">Play in browser</a>
+          <a class="pop-btn white" href="#worlds">See the planets</a>
         </div>
         <div class="stats rise d4">
-          <div><b>25</b>hand-made levels</div>
+          <div><b>110</b>hand-made levels</div>
+          <div><b>4</b>planets</div>
           <div><b>0</b>ads</div>
           <div><b>∞</b>deaths</div>
         </div>
@@ -72,13 +74,13 @@
     <!-- ============ LEVEL TICKER ============ -->
     <div class="ticker" aria-label="Some of the levels">
       <ul>
-        <li>The First Lie</li><li>Trust Issues</li><li>Runaway Door</li><li>Floor Is Lava</li><li>Bridge Out</li>
-        <li>Thin Air</li><li>Mirror Hands</li><li>Spike Patrol</li><li>Save Point?</li><li>The Flip Clock</li>
-        <li>Crusher Alley</li><li>Wrong Door</li><li>Paper Spikes</li><li>Moon Walk</li><li>The Last Lie</li>
+        <li>The First Lie</li><li>Runaway Door</li><li>The Last Lie</li><li>Indiana Bones</li><li>Old Faithful</li>
+        <li>Wormhole</li><li>Boulder Rain</li><li>The Red Lie</li><li>Great Red Spot</li><li>Thunderbolt</li>
+        <li>Hera</li><li>King of the Gods</li><li>Enceladus</li><li>Titan</li><li>Lord of the Rings</li>
         <!-- duplicated for a seamless loop -->
-        <li aria-hidden="true">The First Lie</li><li aria-hidden="true">Trust Issues</li><li aria-hidden="true">Runaway Door</li><li aria-hidden="true">Floor Is Lava</li><li aria-hidden="true">Bridge Out</li>
-        <li aria-hidden="true">Thin Air</li><li aria-hidden="true">Mirror Hands</li><li aria-hidden="true">Spike Patrol</li><li aria-hidden="true">Save Point?</li><li aria-hidden="true">The Flip Clock</li>
-        <li aria-hidden="true">Crusher Alley</li><li aria-hidden="true">Wrong Door</li><li aria-hidden="true">Paper Spikes</li><li aria-hidden="true">Moon Walk</li><li aria-hidden="true">The Last Lie</li>
+        <li aria-hidden="true">The First Lie</li><li aria-hidden="true">Runaway Door</li><li aria-hidden="true">The Last Lie</li><li aria-hidden="true">Indiana Bones</li><li aria-hidden="true">Old Faithful</li>
+        <li aria-hidden="true">Wormhole</li><li aria-hidden="true">Boulder Rain</li><li aria-hidden="true">The Red Lie</li><li aria-hidden="true">Great Red Spot</li><li aria-hidden="true">Thunderbolt</li>
+        <li aria-hidden="true">Hera</li><li aria-hidden="true">King of the Gods</li><li aria-hidden="true">Enceladus</li><li aria-hidden="true">Titan</li><li aria-hidden="true">Lord of the Rings</li>
       </ul>
     </div>
 
@@ -91,7 +93,7 @@
           <p>
             Trust Gravity looks like a cute, simple platformer: run, jump, reach the door.
             Then the floor collapses, the door runs off and gravity turns upside down.
-            Each of the 25 levels hides a new trick, and you only find it by falling for it.
+            110 levels across four planets, each hiding a new trick you only find by falling for it.
           </p>
         </div>
         <div class="grid">
@@ -108,14 +110,47 @@
           <article class="card">
             <div class="icon bg-pink" aria-hidden="true">💬</div>
             <h3>It talks back</h3>
-            <p>Each death comes with a fresh taunt, like "Skill issue." or "Gravity: 1. You: 0." The game is laughing with you. Mostly at you.</p>
+            <p>Pick a nickname and the game roasts it. Every death comes with a fresh taunt, like "Skill issue." or "Medium rare." It's laughing with you. Mostly at you.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PLANETS ============ -->
+    <section id="worlds" class="band">
+      <div class="container">
+        <div class="section-head">
+          <span class="tag">Four planets</span>
+          <h2>New planet, <em>new physics</em></h2>
+          <p>Each planet has its own gravity and its own ways to kill you. Clear one to unlock the next.</p>
+        </div>
+        <div class="grid worlds">
+          <article class="card world moon">
+            <div class="world-head"><span class="planet" aria-hidden="true">🌙</span><div><h3>The Moon</h3><small>Levels 1–25</small></div></div>
+            <p>Where it all began. Gravity flips, runaway doors, fake checkpoints, mirror controls, crushers and spike rain.</p>
+            <ul class="chips"><li>Gravity flips</li><li>Fake doors</li><li>Crushers</li></ul>
+          </article>
+          <article class="card world mars">
+            <div class="world-head"><span class="planet" aria-hidden="true">🔴</span><div><h3>Mars</h3><small>Levels 26–50</small></div></div>
+            <p>Floaty red-planet gravity and giant leaps. Boulders roll at you, dust storms push you, quicksand swallows you, and hidden lava erupts from solid-looking ground.</p>
+            <ul class="chips"><li>Boulders</li><li>Dust storms</li><li>Quicksand</li><li>Lava</li><li>Portals</li></ul>
+          </article>
+          <article class="card world jupiter">
+            <div class="world-head"><span class="planet" aria-hidden="true">🟠</span><div><h3>Jupiter</h3><small>Levels 51–80</small></div></div>
+            <p>The king of planets. Crushing gravity, cloud belts that blow you east and west, the Great Red Spot storm, vanishing ammonia clouds, saw blades and Zeus's thunderbolts.</p>
+            <ul class="chips"><li>Storm vortex</li><li>Cloud bands</li><li>Saw blades</li><li>Lightning</li></ul>
+          </article>
+          <article class="card world saturn">
+            <div class="world-head"><span class="planet" aria-hidden="true">🪐</span><div><h3>Saturn</h3><small>Levels 81–110</small></div></div>
+            <p>Ride the rings on orbiting ice rafts and dodge ring shards. Slide on icy moons, ride Enceladus's water jets, swim Titan's methane lakes, and find your way through its thick smog.</p>
+            <ul class="chips"><li>Ring rafts</li><li>Ice</li><li>Water jets</li><li>Methane lakes</li><li>Smog</li></ul>
           </article>
         </div>
       </div>
     </section>
 
     <!-- ============ FEATURES / TROLLS ============ -->
-    <section id="features" class="band">
+    <section id="features">
       <div class="container">
         <div class="section-head">
           <span class="tag">What's waiting for you</span>
@@ -125,68 +160,68 @@
         <div class="grid">
           <article class="card">
             <div class="icon bg-cyan" aria-hidden="true">🙃</div>
-            <h3>Gravity flips</h3>
-            <p>Step into a zone, some of them invisible, and you fall up. Some levels flip gravity on a timer. Some flip it every time you jump.</p>
+            <h3>Lying gravity</h3>
+            <p>Gravity flips on the Moon, floats on Mars, crushes on Jupiter, and goes weightless in Saturn's helium pockets. Your jump is never the same twice.</p>
           </article>
           <article class="card">
             <div class="icon bg-yellow" aria-hidden="true">🚪</div>
             <h3>Runaway doors</h3>
-            <p>Exits that run away, ride on platforms, parachute down, hide while you move, or swap places with a fake that kills you.</p>
+            <p>Exits that run away, parachute down, ride a rover over quicksand, orbit on a ring, or hide until you stand still. Plus plenty of fakes that kill you.</p>
           </article>
           <article class="card">
             <div class="icon bg-pink" aria-hidden="true">🔺</div>
-            <h3>Sneaky spikes</h3>
-            <p>Spikes that pop up, patrol, rain from the sky, or turn out to be made of paper. Watch the wind to tell which ones are real.</p>
+            <h3>Hidden killers</h3>
+            <p>Spikes that pop up, saws that spring out of the floor, lava from solid ground, and lightning with no warning. You'll learn where they are. The hard way.</p>
           </article>
           <article class="card">
             <div class="icon bg-white" aria-hidden="true">🧱</div>
             <h3>Lying floors</h3>
-            <p>Bridges that crumble, floors that vanish under you, and a few random bridges that collapse each time you try.</p>
+            <p>Floors that crumble, ice that won't let you stop, quicksand dressed as rock, and clouds that vanish under your feet.</p>
           </article>
           <article class="card">
-            <div class="icon bg-lime" aria-hidden="true">⇄</div>
-            <h3>Mirror controls</h3>
-            <p>Left becomes right, mid-jump, over a spike pit. Your thumbs will need a moment. You won't get one.</p>
+            <div class="icon bg-lime" aria-hidden="true">🪨</div>
+            <h3>Things that chase you</h3>
+            <p>Giant boulders faster than you, hunting thunderbolts, storms that drag you into their eye, and moonlets rolling in from space.</p>
           </article>
           <article class="card">
-            <div class="icon bg-blue" aria-hidden="true">🔨</div>
-            <h3>Crushers &amp; fake saves</h3>
-            <p>Pistons that slam in rhythm, a crusher that hunts you, and a checkpoint that says "saved" but saves nothing.</p>
+            <div class="icon bg-blue" aria-hidden="true">🏆</div>
+            <h3>Beat everyone</h3>
+            <p>An online leaderboard ranks every player by the furthest level reached, then by the fewest deaths. Your nickname is yours alone.</p>
           </article>
         </div>
       </div>
     </section>
 
     <!-- ============ HOW TO PLAY ============ -->
-    <section id="how">
+    <section id="how" class="band">
       <div class="container">
         <div class="section-head">
           <span class="tag">How to play</span>
-          <h2>Simple controls. <em>Unfair</em> world.</h2>
+          <h2>Simple controls. <em>Unfair</em> universe.</h2>
         </div>
         <div class="grid steps">
           <article class="card">
-            <h3>Move</h3>
-            <p>Tap the left and right buttons on your phone. On a keyboard use <kbd>←</kbd> <kbd>→</kbd> or <kbd>A</kbd> <kbd>D</kbd>.</p>
+            <h3>Move &amp; jump</h3>
+            <p>Use the on-screen arrows and the big jump button (your phone buzzes on every press). On a keyboard: <kbd>←</kbd> <kbd>→</kbd> or <kbd>A</kbd> <kbd>D</kbd>, and <kbd>Space</kbd> / <kbd>↑</kbd>.</p>
           </article>
           <article class="card">
-            <h3>Jump</h3>
-            <p>Tap the jump button, or press <kbd>Space</kbd> / <kbd>↑</kbd>. When gravity is flipped, you jump "down".</p>
+            <h3>Short hops</h3>
+            <p>Hold jump briefly and let go for a short hop, perfect for landing on a nearby ledge instead of flying past it.</p>
           </article>
           <article class="card">
-            <h3>Reach the door</h3>
-            <p>Get Sprout to the exit door to clear the level. Make sure it's the real door first.</p>
+            <h3>Pick your level</h3>
+            <p>Open the level map to see every planet, replay any level you've cleared, and see what's next. Locked levels stay locked until you earn them.</p>
           </article>
           <article class="card">
             <h3>Trust nothing</h3>
-            <p>Every death teaches you the trick. Your progress is saved on your device, so you can always come back.</p>
+            <p>Every death teaches you the trick. Your progress saves on your device, and new levels and fixes arrive automatically, with no store update needed.</p>
           </article>
         </div>
       </div>
     </section>
 
     <!-- ============ FAQ ============ -->
-    <section id="faq" class="band">
+    <section id="faq">
       <div class="container">
         <div class="section-head">
           <span class="tag">FAQ</span>
@@ -195,23 +230,35 @@
         <div class="faq">
           <details>
             <summary>Is the game free?</summary>
-            <p>Yes.  Trust Gravity is free to download. There are no ads and no in-app purchases.</p>
+            <p>Yes. Trust Gravity is free to download. There are no ads and no in-app purchases.</p>
+          </details>
+          <details>
+            <summary>How many levels are there?</summary>
+            <p>110: 25 on the Moon, 25 on Mars, 30 on Jupiter and 30 on Saturn. Each planet unlocks when you clear the one before it.</p>
           </details>
           <details>
             <summary>Which devices can I play on?</summary>
-            <p>Android phones and tablets through Google Play. You can also try it in a desktop or mobile browser with the "Play in browser" button.</p>
+            <p>Android phones and tablets through Google Play.</p>
           </details>
           <details>
             <summary>Do I need an account or internet?</summary>
-            <p>No account is needed. The game plays offline. Your level progress, total deaths and sound setting are saved only on your device.</p>
+            <p>No account is needed. You just pick a nickname. The levels play offline, and your progress is saved on your device. Internet is only used for the leaderboard, game updates and anonymous analytics.</p>
+          </details>
+          <details>
+            <summary>How does the leaderboard work?</summary>
+            <p>Players are ranked by the furthest level reached, then by the fewest deaths. Every nickname is unique, so nobody can copy yours. Your nickname, level and death count are visible to other players.</p>
+          </details>
+          <details>
+            <summary>How do I get new levels?</summary>
+            <p>Automatically. The game downloads updates in the background; when one is ready you'll see "New traps downloaded. Reopen the game!" Just close and reopen it.</p>
           </details>
           <details>
             <summary>Is it really that hard?</summary>
-            <p>It's a troll game, so it's designed to surprise you. Every level has been tested to be beatable, and once you know a trick it becomes fair.</p>
+            <p>It's a troll game, so it's designed to surprise you. Every single level has been tested to be beatable, and once you know a trick it becomes fair.</p>
           </details>
           <details>
             <summary>What data does the game collect?</summary>
-            <p>The Android app uses Microsoft Clarity to understand how people play (for example, which levels are too hard). It doesn't ask for your name, email or location. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+            <p>Your nickname and score for the leaderboard, an anonymous ID, and anonymous gameplay analytics to fix levels that are too hard. Nothing personal like your name, email or location. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
           </details>
         </div>
       </div>
@@ -221,8 +268,8 @@
     <section>
       <div class="container">
         <div class="cta-box">
-          <h2>Think you can beat all 25 levels?</h2>
-          <p>Gravity says no. Prove it wrong.</p>
+          <h2>Think you can beat all 110 levels?</h2>
+          <p>The Moon, Mars, Jupiter and Saturn say no. Prove them wrong.</p>
           <a class="pop-btn" href="https://play.google.com/store/apps/details?id=com.game.dont_trust_gravity" target="_blank" rel="noopener">▶ Download on Google Play</a>
         </div>
       </div>
@@ -234,8 +281,8 @@
       <p>© 2026 Trust Gravity. All rights reserved.</p>
       <ul class="footer-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="play/index.html">Play in browser</a></li>
+        <li><a href="#worlds">Planets</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="privacy.html">Privacy Policy</a></li>
       </ul>
     </div>

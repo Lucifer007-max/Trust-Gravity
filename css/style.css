@@ -390,3 +390,24 @@ td { color: var(--soft); }
   *, *::before, *::after { animation: none !important; transition: none !important; }
   html { scroll-behavior: auto; }
 }
+
+/* ---------- Planets ---------- */
+.grid.worlds { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.world { border-top: 6px solid var(--planet, var(--lime)); }
+.world.moon { --planet: var(--lime); }
+.world.mars { --planet: #ff9f43; }
+.world.jupiter { --planet: #f2c38b; }
+.world.saturn { --planet: #bfefff; }
+.world-head { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.world-head h3 { margin: 0; color: var(--planet); }
+.world-head small { color: var(--muted); font-size: 12px; letter-spacing: 1px; text-transform: uppercase; }
+.planet {
+  width: 48px; height: 48px; flex: none; display: grid; place-items: center;
+  font-size: 26px; background: var(--bg-3); border: 2px solid var(--ink);
+  box-shadow: 4px 4px 0 var(--planet);
+}
+.chips { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 0; padding: 0; }
+.chips li {
+  font-size: 11px; font-weight: 800; letter-spacing: .5px; padding: 4px 8px;
+  color: var(--ink); background: var(--planet);
+}
